@@ -1,0 +1,33 @@
+#site_header {
+  @include display_flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $color_primary;
+
+  .navbar {
+    a {
+      text-decoration: none;
+      color: $color_primary;
+      font-weight: $font-weight_bold;
+      padding: 0 1rem;
+    }
+    & a:first-child::after {
+      content: "\f078";
+      font-family: "Font Awesome 5 Free";
+      font-weight: $font-weight_bold;
+      margin-left: 5px;
+    }
+    & a:last-child {
+      color: $color_blueGoogle;
+      border: 1px solid $color_blueGoogle;
+      border: 1px solid $color_blueGoogle;
+      padding: 0.75rem;
+      border-radius: 5px;
+      img {
+        width: 20px;
+        vertical-align: bottom;
+      }
+    }
+  }
+}
