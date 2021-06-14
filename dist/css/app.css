@@ -12,6 +12,20 @@ body {
   margin: 0 auto;
 }
 
+a > img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: #2c4792;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
 #site_header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +52,36 @@ body {
   padding: 0.75rem;
   border-radius: 5px;
 }
-#site_header .navbar a:last-child img {
-  width: 20px;
-  vertical-align: bottom;
+
+.jumbotron {
+  background-image: url(/dist/img/illustration-main.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 25%;
+}
+.jumbotron .jumbo_text {
+  width: 51%;
+  padding: 3rem 0;
+}
+.jumbotron .jumbo_text h1 {
+  color: #58402c;
+  font-size: 3rem;
+  color: #58402c;
+  line-height: 4.5rem;
+}
+.jumbotron .jumbo_text span {
+  color: #58402c;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.jumbotron .jumbo_text .signup {
+  margin-top: 3rem;
+}
+.jumbotron .jumbo_text .signup span {
+  font-size: 1rem;
+  margin: 2px;
+}
+.jumbotron .jumbo_text div > a > i {
+  color: #58402c;
 }

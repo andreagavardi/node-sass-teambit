@@ -1,0 +1,32 @@
+.jumbotron {
+  background-image: url(/dist/img/illustration-main.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 25%;
+  .jumbo_text {
+    width: 51%;
+    padding: 3rem 0;
+    h1 {
+      color: $color_primary;
+      font-size: 3rem;
+      color: #58402c;
+      line-height: 4.5rem;
+    }
+    span {
+      color: $color_primary;
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+    .signup {
+      margin-top: 3rem;
+    }
+    .signup span {
+      font-size: 1rem;
+      margin: 2px;
+    }
+    div > a > i {
+      color: $color_primary;
+    }
+  }
+}
