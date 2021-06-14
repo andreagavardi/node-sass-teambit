@@ -1,0 +1,39 @@
+#turnover {
+  background-color: $background-color-primary;
+  padding: 3rem 0;
+  .container {
+    @include display_flex;
+    flex-wrap: wrap;
+  }
+  h2 {
+    font-size: 2rem;
+    width: 100%;
+    padding: 2rem 8rem;
+    line-height: 3rem;
+    color: $color_primary;
+  }
+  h2,
+  .card div {
+    text-align: center;
+  }
+  .card {
+    @include display_flex;
+    flex-direction: column;
+    align-items: center;
+    width: $row-col-3;
+    padding: 1rem;
+    img {
+      height: 150px;
+      max-width: 55%;
+      object-fit: contain;
+    }
+    div {
+      margin-top: 1rem;
+      color: $color_primary;
+    }
+    & img:last-child {
+      margin: auto;
+      width: 40%;
+    }
+  }
+}
