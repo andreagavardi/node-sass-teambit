@@ -54,7 +54,7 @@ a > img {
 }
 
 .jumbotron {
-  background-image: url(/dist/img/illustration-main.jpg);
+  background-image: url(/../../dist/img/illustration-main.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position-x: 100%;
