@@ -4,6 +4,7 @@
   .container {
     @include display_flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   h2 {
     font-size: 2rem;
@@ -31,9 +32,10 @@
       margin-top: 1rem;
       color: $color_primary;
     }
-    & img:last-child {
-      margin: auto;
-      width: 40%;
+  }
+  .card_bottom {
+    img {
+      width: 350px;
     }
   }
 }

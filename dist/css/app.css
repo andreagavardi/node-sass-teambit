@@ -57,7 +57,7 @@ a > img {
 }
 
 .jumbotron {
-  background-image: url(/../../dist/img/illustration-main.jpg);
+  background-image: url(../img/illustration-main.jpg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position-x: 100%;
@@ -96,6 +96,7 @@ a > img {
 #turnover .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 #turnover h2 {
   font-size: 2rem;
@@ -125,7 +126,6 @@ a > img {
   margin-top: 1rem;
   color: #58402c;
 }
-#turnover .card img:last-child {
-  margin: auto;
-  width: 40%;
+#turnover .card_bottom img {
+  width: 350px;
 }
