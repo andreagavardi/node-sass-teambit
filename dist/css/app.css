@@ -194,3 +194,59 @@ h2 {
 #details .col_left {
   padding-left: 20rem;
 }
+
+#get_started {
+  background-color: #fee7d2;
+}
+#get_started .container_sm {
+  align-items: center;
+}
+#get_started .container_sm h2 {
+  font-size: 3rem;
+  padding: 4rem 6rem;
+  line-height: 4.5rem;
+}
+#get_started .container_sm h2 img {
+  width: 40px;
+}
+#get_started .container_sm .citazione {
+  position: relative;
+  background-color: white;
+  border: 1px solid #2c4792;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 65%;
+}
+#get_started .container_sm .citazione i {
+  position: absolute;
+  top: -15px;
+  left: 1px;
+  color: #2c4792;
+  font-size: 2rem;
+}
+#get_started .container_sm .citazione .authors {
+  margin-top: 2rem;
+}
+#get_started .container_sm .citazione .authors .images img {
+  margin-right: 1.5rem;
+  width: 60px;
+}
+#get_started .container_sm .citazione .authors .detail h5 {
+  color: blue;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#get_started .container_sm .signup {
+  margin: 3rem;
+  align-items: center;
+}
+#get_started .container_sm .signup span {
+  font-size: 1rem;
+  margin: 2px;
+}
+#get_started .container_sm div > a > i {
+  color: #58402c;
+}
+#get_started .container_sm .email {
+  margin-top: 1.5rem;
+}

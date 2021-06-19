@@ -42,3 +42,68 @@
     padding-left: 20rem;
   }
 }
+
+#get_started {
+  background-color: $background-color-primary;
+
+  .container_sm {
+    align-items: center;
+    h2 {
+      font-size: 3rem;
+      padding: 4rem 6rem;
+      line-height: 4.5rem;
+      img {
+        width: 40px;
+      }
+    }
+    .citazione {
+      position: relative;
+      background-color: white;
+      border: 1px solid #2c4792;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 65%;
+
+      i {
+        position: absolute;
+        top: -15px;
+        left: 1px;
+        color: #2c4792;
+        font-size: 2rem;
+      }
+
+      .authors {
+        margin-top: 2rem;
+
+        .images {
+          img {
+            margin-right: 1.5rem;
+            width: 60px;
+          }
+        }
+        .detail {
+          h5 {
+            color: blue;
+            font-size: 1rem;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+
+    .signup {
+      margin: 3rem;
+      align-items: center;
+    }
+    .signup span {
+      font-size: 1rem;
+      margin: 2px;
+    }
+    div > a > i {
+      color: $color_primary;
+    }
+    .email {
+      margin-top: 1.5rem;
+    }
+  }
+}
