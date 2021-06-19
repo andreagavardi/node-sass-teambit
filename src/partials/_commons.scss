@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 .container {
   max-width: 80%;
@@ -23,4 +23,9 @@ a > img {
   text-decoration: none;
   font-weight: $font-weight_bold;
   color: white;
+}
+
+hr {
+  width: 100%;
+  text-align: center;
 }
