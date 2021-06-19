@@ -6,6 +6,39 @@
 @import "partials/_jumbotron";
 @import "partials/_section-turnover";
 
-#solutions h2 {
-  margin-top: 5rem;
+#solutions {
+  h2 {
+    margin-top: 5rem;
+  }
+}
+
+#details {
+  flex-wrap: wrap;
+  padding-bottom: 6rem;
+  img {
+    max-width: 100%;
+  }
+  h2,
+  img {
+    padding: 3.5rem 0;
+    padding-bottom: 0;
+  }
+  p {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    color: $color_primary;
+  }
+  a,
+  i {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+
+  .col_right {
+    padding-right: 20rem;
+  }
+  .col_left {
+    padding-left: 20rem;
+  }
 }

@@ -15,6 +15,11 @@ body {
   margin: 0 auto;
 }
 
+.container_sm {
+  margin: 0 auto;
+  max-width: 60%;
+}
+
 a > img {
   width: 20px;
   vertical-align: middle;
@@ -29,9 +34,28 @@ a > img {
   color: white;
 }
 
+.d_flex {
+  display: flex;
+}
+
+.d_column {
+  flex-direction: column;
+}
+
 hr {
   width: 100%;
   text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 2rem 10rem;
+  line-height: 3rem;
+  color: #58402c;
+}
+
+.row_col2 {
+  width: 50%;
 }
 
 #site_header {
@@ -106,13 +130,6 @@ hr {
   justify-content: center;
 }
 #turnover h2,
-#solutions h2 {
-  font-size: 2rem;
-  padding: 2rem 10rem;
-  line-height: 3rem;
-  color: #58402c;
-}
-#turnover h2,
 #turnover .card div,
 #solutions h2,
 #solutions .card div {
@@ -146,4 +163,34 @@ hr {
 
 #solutions h2 {
   margin-top: 5rem;
+}
+
+#details {
+  flex-wrap: wrap;
+  padding-bottom: 6rem;
+}
+#details img {
+  max-width: 100%;
+}
+#details h2,
+#details img {
+  padding: 3.5rem 0;
+  padding-bottom: 0;
+}
+#details p {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  color: #58402c;
+}
+#details a,
+#details i {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+#details .col_right {
+  padding-right: 20rem;
+}
+#details .col_left {
+  padding-left: 20rem;
 }
