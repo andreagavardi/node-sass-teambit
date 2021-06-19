@@ -58,6 +58,22 @@ h2 {
   width: 50%;
 }
 
+.col30 {
+  width: 30%;
+}
+
+.col70 {
+  width: 70%;
+}
+
+.col80 {
+  width: 80%;
+}
+
+.col20 {
+  width: 20%;
+}
+
 #site_header {
   display: flex;
   justify-content: space-between;
@@ -249,4 +265,35 @@ h2 {
 }
 #get_started .container_sm .email {
   margin-top: 1.5rem;
+}
+
+#site_footer .container {
+  padding: 4rem 0;
+  font-weight: 700;
+  color: #58402c;
+}
+#site_footer .container .col20 img {
+  width: 40px;
+}
+#site_footer .container .col80 p {
+  font-size: 1.25rem;
+}
+#site_footer .container .col80 p span {
+  color: #2c4792;
+  font-size: 1rem;
+}
+#site_footer .container .col70 {
+  padding-left: 1rem;
+}
+#site_footer .container .col70 h3 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+#site_footer .container .col70 a {
+  text-decoration: none;
+  color: #58402c;
+  margin-bottom: 0.5rem;
+}
+#site_footer .container .col70 p {
+  padding-right: 3rem;
 }
